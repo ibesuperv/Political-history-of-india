@@ -1,0 +1,34 @@
+.parent {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    flex: 1;
+    
+    & :hover{
+        scale: 1.04;
+        color: rgb(136, 133, 129);
+        border-color: rgb(140, 146, 135);
+        font-size: 45px;
+        box-shadow: rgba(77, 77, 77, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    }
+}
+
+.history , .news{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 600;
+    border: solid 15px rgb(94, 92, 92);
+}
+.link{
+    color: black;
+    border-radius: 50%;
+    text-decoration: none;
+}

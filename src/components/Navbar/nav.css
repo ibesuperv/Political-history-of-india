@@ -1,0 +1,67 @@
+.nav {
+    color: black;
+    height: 9vh;
+    width: 100vw;
+    background-color: white; /* Corrected the typo 'blackk' to 'black' */
+    position: fixed;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    & .logo{
+        margin-left: 50px;
+        font-size: 20px;
+        cursor: pointer;
+
+        &.logo:hover{
+            scale: 1.01;
+            font-weight: bold;
+            transition: 0.2s;
+        }
+    }
+    & .lis{
+        margin-right: 60px;
+    }
+}
+
+.nav .lis ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    color: black;
+    font-size: 16px;
+    & li:hover{
+        scale: 1.09;
+        text-decoration: underline;
+        transition: 0.4s;
+        color: aqua;
+    }
+
+}
+
+.nav .lis ul li {
+    list-style-type: none;
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    
+    cursor: pointer; 
+
+    
+}
+.home{
+
+    letter-spacing: 1px;
+}
+.links{
+    text-decoration: none;
+    color: black;
+}
+.links:hover{
+    scale: 1.09;
+    text-decoration: underline;
+    transition: 0.4s;
+    color: aqua;
+}
